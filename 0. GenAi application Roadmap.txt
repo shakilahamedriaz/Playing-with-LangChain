@@ -1,0 +1,100 @@
+
+
+# 🚀 Generative AI Roadmap
+
+### **1. Foundations (Programming + Core Skills)**
+
+* **Programming** → Python (primary), JavaScript/TypeScript (for web/app integration)
+* **Data Structures & Algorithms** → essential for efficient handling of large data/text
+* **APIs** → how to build, consume, and secure APIs
+* **Frontend & Backend Basics** → React/Next.js (frontend), Node.js/Django/FastAPI (backend)
+* **Security & Environment Management** → `.env`, authentication, user data safety
+
+---
+
+### **2. Core AI/ML Concepts**
+
+* **Machine Learning basics**: supervised, unsupervised, evaluation metrics
+* **Deep Learning**: neural networks, CNN, RNN, Transformers
+* **NLP Basics**: tokenization, embeddings, vectorization
+
+---
+
+### **3. Generative AI Foundations**
+
+* **LLMs (Large Language Models)**
+
+  * How they work (transformers, attention mechanism)
+  * Open-source vs Closed-source (GPT, LLaMA, Mistral, Claude, etc.)
+
+* **Embeddings + Vector Databases**
+
+  * Breaking text into chunks
+  * Convert chunks → high-dimensional numerical vectors
+  * Store & retrieve in vector DBs (Pinecone, Weaviate, Milvus, FAISS)
+
+* **RAG (Retrieval-Augmented Generation)**
+
+  * Why: Faster, cheaper, private info access, avoids expensive retraining
+  * How: Embed → Store in vector DB → Retrieve relevant chunks → Feed to LLM
+
+---
+
+### **4. Customizing AI Models**
+
+* **Fine-Tuning**
+
+  * Train with domain-specific data (expensive & time-consuming)
+  * Use when you need deep specialization
+
+* **Prompt Engineering**
+
+  * Role: Define model’s persona
+  * Task: Give clear instructions
+  * Format Patterns: Few-shot, CoT (chain of thought), structured outputs (JSON, Markdown, etc.)
+
+---
+
+### **5. Frameworks & Tools**
+
+* **Frameworks**
+
+  * LangChain, LlamaIndex → orchestration frameworks for LLM workflows
+  * HuggingFace Transformers → model hub + training
+* **SDKs & APIs**
+
+  * OpenAI API, Anthropic API, Cohere, Stability AI
+* **Tools + Framework = Solve tasks** (Agents, pipelines, automation)
+
+---
+
+### **6. AI Agents**
+
+* Goal-driven systems that:
+
+  * Plan, reason, and self-work
+  * Use tools (search, DB, APIs)
+  * Chain tasks until objective is complete
+
+Examples: AutoGPT, BabyAGI, CrewAI
+
+---
+
+### **7. Advanced Topics**
+
+* **Multimodal AI** → Text + Image + Audio + Video (e.g., GPT-4V, Gemini)
+* **On-device AI** → Optimizing models for mobile/edge (Core ML, TensorRT, GGUF quantization)
+* **Open-Source LLMs** → LLaMA, Falcon, Mistral, Mixtral, DeepSeek
+* **Fine-grained Security & Privacy** → differential privacy, federated learning
+
+---
+
+### **8. Project Building (Practical Phase)**
+
+* **Stage 1** → Simple chatbot (OpenAI API + FastAPI backend + React frontend)
+* **Stage 2** → RAG-powered knowledge assistant (LangChain + Vector DB)
+* **Stage 3** → AI Agent with multiple tools (search, API calling, file handling)
+* **Stage 4** → Deploy multimodal model (e.g., voice + text + image chatbot)
+* **Stage 5** → Production-grade app with monitoring, logging, scaling
+
+---

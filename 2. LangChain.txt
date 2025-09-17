@@ -1,0 +1,29 @@
+
+### 3. LangChain Ecosystem
+
+* **LangSmith** → Monitoring & debugging
+* **LangServe** → Deployment (turn apps into APIs)
+* **LangGraph** → Agents & Multi-Agent systems
+* **Evaluation Tools** → Compare models, test prompts
+
+---
+
+### 4. Evolution
+
+* From **LLM model → Chat model**
+* From **legacy code → LEEL (LangChain Expression Language)**
+* From **basic LC → LC Ecosystem**
+* From **poor docs → better ecosystem support**
+
+---
+
+### 5. Application Flow
+
+* **Data In** → (`txt, pdf, etc.`)
+* **Action** → (retrieval, agent, formatting, transform)
+* **Data Out** → (answers, structured format, generation, chat)
+
+---
+
+
+

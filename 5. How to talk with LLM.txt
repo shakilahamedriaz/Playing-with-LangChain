@@ -1,0 +1,13 @@
+##  How to talk llm with langchain
+
+ 1. connect with the most use llm - OpenAi
+ 2. connect with alternative LLMs - Open Source
+ 3. talk to LLM in Diffrent Language ( eng, spanish, bangla)
+ 4. Introduction to prompt Templates
+ 5. chians
+ 6. Output Parsons
+
+
+ ## some model
+  -meta llama, Mistral, Falcon
+  -best model (OpenAi for production level model)

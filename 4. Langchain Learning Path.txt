@@ -1,0 +1,19 @@
+Learnign Path: 
+
+1) Introduction
+2) How to talk with LLM/OpenAi/OpenSource
+3) How to work with Data (RAG)
+4) Chain Runnable
+5) Memory
+6) Ecosystem
+    - LangSmith 
+    - LangServer
+    - LangGraph
+
+7) Application - 1 (basic project)
+8) Application = 2 (intermidate project)
+9) Application - 3 (Advance Project)
+
+
+
+

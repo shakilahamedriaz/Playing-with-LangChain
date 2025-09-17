@@ -1,0 +1,28 @@
+
+
+## 📝 LangChain – Key Notes
+
+### 1. Why LangChain?
+
+* LLMs have **limitations**:
+
+  * Limited context
+  * Outdated knowledge base
+  * Data privacy issues
+  * High cost
+  * No direct connection with 3rd party tools
+* Data sources: `.txt`, `.pdf`, `.csv`, `.sql`, `.xls`, `.html`, `.png`, etc.
+* LangChain allows integration of LLMs with **data, tools, and APIs**.
+
+---
+
+### 2. Core Idea
+
+* **Universal framework** → Works with all LLMs (OpenAI, LLaMA, Mistral, etc.)
+* Avoids learning each model’s unique framework → one standard interface.
+* Orchestration: combine data, tools, prompts, and models in workflows.
+
+---
+
+
+
