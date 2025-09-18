@@ -1,0 +1,22 @@
+## Prompt templates for integrating logic intro llm integrations
+
+# agenda:
+  1. Prompt templates
+  2. Chians
+  3. Output parser
+
+
+  # Prompt: Programming language for llm to perform communications.
+
+  # prompt templates:  you can pass variables
+            prompt -> LLM -> Output
+
+            1. Tell me about ........india......
+            2. Tell me about ........JFK.....
+            3. Tell me about ........Tesla......
+
+    instead of writing this, let's write it by variable. 
+    
+    like: Tell me about ....{user_input}.....
+          (that is a good solutions)
+          
