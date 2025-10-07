@@ -1,6 +1,7 @@
 import os
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
+from langchain_groq import ChatGroq
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv, find_dotenv
 from fastapi import FastAPI
@@ -9,9 +10,13 @@ import uvicorn
 
 
 _ = load_dotenv(find_dotenv())
-openai_api_key = os.environ["OPENAI_API_KEY"]
+#openai_api_key = os.environ["OPENAI_API_KEY"]
+groq_api_key = os.environ["GROQ_API_KEY"]
 
-llm = ChatOpenAI(model="gpt-3.5-turbo")
+#llm = ChatOpenAI(model="gpt-3.5-turbo")
+llm = ChatGroq(
+    model = "llama-3.1-8b-instant"
+)
 
 parser = StrOutputParser()
 
